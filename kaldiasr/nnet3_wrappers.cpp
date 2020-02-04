@@ -24,9 +24,9 @@
 
 #include "nnet3_wrappers.h"
 
-#include "lat/lattice-functions.h"
-#include "lat/word-align-lattice-lexicon.h"
-#include "nnet3/nnet-utils.h"
+#include "kaldi/lat/lattice-functions.h"
+#include "kaldi/lat/word-align-lattice-lexicon.h"
+#include "kaldi/nnet3/nnet-utils.h"
 
 #define VERBOSE 0
 

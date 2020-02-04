@@ -22,15 +22,15 @@
 // limitations under the License.
 //
 
-#include "base/kaldi-common.h"
-#include "util/common-utils.h"
-#include "fstext/fstext-lib.h"
-#include "nnet3/nnet-am-decodable-simple.h"
-#include "online2/online-nnet3-decoding.h"
-#include "online2/online-nnet2-feature-pipeline.h"
-#include "decoder/lattice-faster-decoder.h"
-#include "decoder/lattice-faster-decoder.h"
-#include "nnet3/decodable-simple-looped.h"
+#include "kaldi/base/kaldi-common.h"
+#include "kaldi/util/common-utils.h"
+#include "kaldi/fstext/fstext-lib.h"
+#include "kaldi/nnet3/nnet-am-decodable-simple.h"
+#include "kaldi/online2/online-nnet3-decoding.h"
+#include "kaldi/online2/online-nnet2-feature-pipeline.h"
+#include "kaldi/decoder/lattice-faster-decoder.h"
+#include "kaldi/decoder/lattice-faster-decoder.h"
+#include "kaldi/nnet3/decodable-simple-looped.h"
 
 namespace kaldi {
     class NNet3OnlineModelWrapper {
